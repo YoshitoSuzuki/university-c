@@ -1,0 +1,22 @@
+## インクルードガード無し
+
+```
+>> $ gcc -o script main.c && ./script
+In file included from main.c:2:
+./header.h:8:5: error: redefinition of 'g'
+    8 | int g(int x) {
+      |     ^
+./header.h:8:5: note: previous definition is here
+    8 | int g(int x) {
+      |     ^
+1 error generated.
+
+```
+
+
+## インクルードガード無し
+
+```
+>> $ gcc -o script main.c && ./script
+
+```
