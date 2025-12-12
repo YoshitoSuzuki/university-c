@@ -13,7 +13,8 @@ typedef struct triangle {
 } Triangle;
 
 Triangle initializeTriangle(double a_x, double a_y, double b_x, double b_y);
-void printVed(const Vec *v);
+void printVec(const Vec *v);
 void calcArea(Triangle *t);
+void printArea(const Triangle *t);
 
 #endif
